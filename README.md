@@ -6,6 +6,7 @@
 - **ChatGPT** - ChatGPT is an AI language model developed by OpenAI that leverages deep learning techniques to generate human-like text responses and engage in natural language conversations across a wide range of topics and contexts.
 - **TailwindCSS** - Tailwind CSS is a utility-first CSS framework that enables rapid UI development by providing a comprehensive set of pre-built utility classes for styling HTML elements. Use of Tailwind requires installation of Node.js (Javascript).
 - **DaisyUI** - DaisyUI is a component library for Tailwind CSS that enhances development efficiency by offering a collection of customizable UI components built with Tailwind's utility-first approach.
+- **HeroIcon**
 
 # Prompts used with ChatGPT
 
@@ -28,3 +29,7 @@
 - Set up fonts using DaisyUI.
 - Add Open Sans as a custom font in DaisyUI.
 - Can you summarize the prompts I've used in this session as a markdown list? 😂
+
+## Note to self
+
+- start development with: npm run dev
