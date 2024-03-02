@@ -264,7 +264,7 @@
       </div>
     </div>
     <div
-      class="flex flex-row flex-wrap justify-center mx-8 mt-8 mb-8 gap-4 h-[486px]"
+      class="flex flex-row flex-wrap justify-center mx-8 mt-8 mb-12 gap-4 h-[486px]"
     >
       <div>
         <div class="card w-80 bg-secondary shadow-xl h-full relative">
@@ -594,9 +594,11 @@
     <div class="bg-primary p-12">
       <div class="flex justify-center bg-base-content rounded-2xl p-8">
         <div class="flex gap-16 mt-8">
-          <div class="w-[523px] flex flex-col">
-            <img class="rounded-2xl" src="arki.jpg" />
-            <img src="#" />
+          <div class="w-[513px] flex flex-col">
+            <img class="rounded-2xl h-[496px]" src="arki.jpg" />
+            <div class="flex justify-end mt-20">
+              <img class="w-[313px]" src="graf.png" />
+            </div>
           </div>
           <div>
             <div class="flex gap-16">
@@ -687,7 +689,11 @@
                 <label
                   class="input input-bordered flex items-center gap-2 mt-2"
                 >
-                  <input type="text" class="grow" placeholder="Search" />
+                  <input
+                    type="text"
+                    class="grow"
+                    placeholder="Film Production Master"
+                  />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 16 16"
@@ -701,19 +707,227 @@
                     />
                   </svg>
                 </label>
-                <div class="text-sm">You don't get ECTS credits</div>
-                <div class="text-2xl font-sans">
+                <div class="text-sm mt-2">You don't get ECTS credits</div>
+                <div class="text-2xl font-sans mt-4">
                   <div>Difficulty: 8/10</div>
                   <div>Level: Undergraduate</div>
                   <div>Course length: 6 months</div>
                 </div>
               </div>
             </div>
-            <div class="text-primary-content">Filter reviews boks</div>
-            <div class="text-primary-content">Jamie Fox</div>
+            <div class="text-primary-content">
+              <div class="flex justify-center font-serif text-[28px] mb-2">
+                Filter reviews
+              </div>
+              <div class="flex justify-center gap-2">
+                <button
+                  class="btn btn-primary border border-secondary-content font-normal border-2 rounded-full min-w-24"
+                >
+                  HVL
+                </button>
+                <button
+                  class="btn btn-secondary border border-secondary-content font-normal border-2 rounded-full min-w-24"
+                >
+                  UiB
+                </button>
+                <button
+                  class="btn btn-secondary border border-secondary-content font-normal border-2 rounded-full min-w-24"
+                >
+                  None Student
+                </button>
+                <button
+                  class="btn btn-secondary border border-secondary-content font-normal border-2 rounded-full min-w-24"
+                >
+                  Top Rating
+                </button>
+                <button
+                  class="btn btn-secondary border border-secondary-content font-normal border-2 rounded-full min-w-24"
+                >
+                  Master
+                </button>
+                <button
+                  class="btn btn-secondary border border-secondary-content font-normal border-2 rounded-full min-w-24"
+                >
+                  Bachelor
+                </button>
+                <button
+                  class="btn btn-secondary border border-secondary-content font-normal border-2 rounded-full min-w-24"
+                >
+                  PHD
+                </button>
+                <div class="underline decoration-{solid} pt-2.5 pl-2 text-info">
+                  <a href="#">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="text-primary-content">
+              <div class="carousel w-[828px] rounded-2xl mt-12">
+                <div id="slide1" class="carousel-item relative w-[828px]">
+                  <img
+                    src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
+                    class="w-full"
+                  />
+                  <div
+                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+                  >
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img
+                    src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+                    class="w-full"
+                  />
+                  <div
+                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+                  >
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img
+                    src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
+                    class="w-full"
+                  />
+                  <div
+                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+                  >
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img
+                    src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+                    class="w-full"
+                  />
+                  <div
+                    class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+                  >
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div>
+      <div class="flex justify-center text-5xl font-serif mt-24 mb-16">
+        3 reasons why you should take a course.
+      </div>
+      <div class="flex justify-center gap-12 mb-36">
+        <div class="flex flex-col items-center gap-4">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-32 h-32"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+          </div>
+          <div class="text-2xl font-serif text-5xl">Flexibility</div>
+          <div class="w-[360px] text-center text-2xl mt-4">
+            With online university courses, you can balance work, life, and
+            education seamlessly.
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-4">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-32 h-32"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m20.893 13.393-1.135-1.135a2.252 2.252 0 0 1-.421-.585l-1.08-2.16a.414.414 0 0 0-.663-.107.827.827 0 0 1-.812.21l-1.273-.363a.89.89 0 0 0-.738 1.595l.587.39c.59.395.674 1.23.172 1.732l-.2.2c-.212.212-.33.498-.33.796v.41c0 .409-.11.809-.32 1.158l-1.315 2.191a2.11 2.11 0 0 1-1.81 1.025 1.055 1.055 0 0 1-1.055-1.055v-1.172c0-.92-.56-1.747-1.414-2.089l-.655-.261a2.25 2.25 0 0 1-1.383-2.46l.007-.042a2.25 2.25 0 0 1 .29-.787l.09-.15a2.25 2.25 0 0 1 2.37-1.048l1.178.236a1.125 1.125 0 0 0 1.302-.795l.208-.73a1.125 1.125 0 0 0-.578-1.315l-.665-.332-.091.091a2.25 2.25 0 0 1-1.591.659h-.18c-.249 0-.487.1-.662.274a.931.931 0 0 1-1.458-1.137l1.411-2.353a2.25 2.25 0 0 0 .286-.76m11.928 9.869A9 9 0 0 0 8.965 3.525m11.928 9.868A9 9 0 1 1 8.965 3.525"
+              />
+            </svg>
+          </div>
+          <div class="text-5xl font-serif">Global Accessibility</div>
+          <div class="w-[360px] text-center text-2xl mt-4">
+            Online university courses offer a passport to knowledge without the
+            constraints of physical location.
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-4">
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-32 h-32"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M7.864 4.243A7.5 7.5 0 0 1 19.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 0 0 4.5 10.5a7.464 7.464 0 0 1-1.15 3.993m1.989 3.559A11.209 11.209 0 0 0 8.25 10.5a3.75 3.75 0 1 1 7.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 0 1-3.6 9.75m6.633-4.596a18.666 18.666 0 0 1-2.485 5.33"
+              />
+            </svg>
+          </div>
+          <div class="text-2xl font-serif text-5xl">Interactive Learning</div>
+          <div class="w-[360px] text-center text-2xl mt-4">
+            Our online university courses foster collaboration, critical
+            thinking, and creativity.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex">
+      <img class="w-[910px]" src="study.jpg" />
+      <div class="bg-secondary w-full flex items-center borderdev">
+        <div class="flex flex-col borderdev w-[545px]">
+          <div class="text-4xl font-normal">
+            "Education isn't confined by walls; it's built upon connections,
+            curiosity, and the courage to explore beyond limits."
+          </div>
+          <div class="text-2xl flex justify-end borderdev mt-8">
+            Nina Marina, PHD student
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="footer py-24 bg-primary text-primary-content flex justify-center justify-evenly text-lg"
+    >
+      <nav>
+        <h6 class="footer-title">Services</h6>
+        <a class="link link-hover">Education</a>
+        <a class="link link-hover">Professors</a>
+        <a class="link link-hover">Press</a>
+        <a class="link link-hover">For Students</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Company</h6>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">UiB and HVL</a>
+        <a class="link link-hover">Jobs</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Contact us</h6>
+        <a class="link link-hover">Mail: ofcourseyoucan@gmail.com</a>
+        <a class="link link-hover">Number: +47 48057003</a>
+        <a class="link link-hover">Chat with us</a>
+      </nav>
+    </footer>
   </body>
 </html>
